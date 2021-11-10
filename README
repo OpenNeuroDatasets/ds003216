@@ -15,3 +15,6 @@ There is no data available for day 3 due to technical issues at scanning (PCI_RX
 
 Data processing:
 Defacing was performed with freesurfer. Motion correction (MOCO), BOLD correction (BOCO) and segmentation of grey + white matter was performed. The additional folder "derivatives" contains the processed data in steps: MOCO, BOCO and segmentation of grey + white matter. For detailed information see: https://github.com/layerfMRI/repository/tree/master/stand_alone_VASO_NEURODEBIAN (MOCO) and https://doi.org/10.1002/mrm.24916 (BOCO). 
+
+Presenting on ISMRM 2022:
+You can find our abstract draft here: https://layerfmri.page.link/ISMRM2022_WB
