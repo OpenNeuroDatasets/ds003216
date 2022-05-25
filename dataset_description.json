@@ -1,5 +1,5 @@
 {
-    "Name": "Whole brain layer-fMRI connectome: An open dataset",
+    "Name": "Acquisition and processing methods of whole-brain layer-fMRI VASO and BOLD: The Kenshu dataset",
     "BIDSVersion": "1.4.0",
     "DatasetType": "raw",
     "License": "CC0",
