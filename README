@@ -1,5 +1,7 @@
 Acquisition and processing methods of whole-brain layer-fMRI VASO and BOLD: The Kenshu dataset
 
+Preprint: https://www.biorxiv.org/content/10.1101/2022.08.19.504502v1
+
 Overview:
 Here, we provide a whole-brain layer-dependent connectome dataset with cerebral blood volume and BOLD contrast. It is coming along with a quality assessment comprising metrics of skew, kurtosis, tSNR and sharpness. The purpose of this dataset is 
 1.) to characterize the prospects and challenges of whole brain layer-fMRI acquisition sequences in a test-retest setting 
