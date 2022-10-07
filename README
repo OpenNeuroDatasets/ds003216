@@ -19,9 +19,12 @@ The link to the movie file is here: https://youtu.be/qndD3ErUaEE (or here, in ca
 For information about detailed scanning parameters see: 
 -> For the first (unusable) participant: https://github.com/layerfMRI/Sequence_Github/blob/master/Whole_brain_layers/Ann_WB_VASO_fMRI.pdf.
 -> For the main data (session 4-13 of the main participant 2): https://github.com/layerfMRI/Sequence_Github/blob/master/Whole_brain_layers/20211012_KEN.pdf
+-> This participant is acquired at TRs of alternating 5.1s and 5.2s. Please ignore the value in the nii header (1.5s).
 
 Data processing:
 Defacing was performed with freeSurfer. Motion correction (MOCO), BOLD correction (BOCO), and segmentation of grey + white matter were performed. The additional folder "derivatives" contains the processed data in steps: MOCO, BOCO, and segmentation of grey + white matter. For detailed information see: https://github.com/layerfMRI/repository/tree/master/stand_alone_VASO_NEURODEBIAN (MOCO), https://doi.org/10.1002/mrm.24916 (BOCO), and https://github.com/kenshukoiso/Whole_Brain_Project (preprocessing pipeline and script)
 
 Presenting on ISMRM 2022:
 You can find our abstract draft here: https://layerfmri.page.link/ISMRM2022_WB. The main participant of this abstract is subject 02 on this open dataset.
+
+Preprint: https://doi.org/10.1101/2022.08.19.504502
