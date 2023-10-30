@@ -1,6 +1,6 @@
 Acquisition and processing methods of whole-brain layer-fMRI VASO and BOLD: The Kenshu dataset
 
-Preprint: https://www.biorxiv.org/content/10.1101/2022.08.19.504502v1
+Paper: https://doi.org/10.52294/001c.87961
 
 Overview:
 Here, we provide a whole-brain layer-dependent connectome dataset with cerebral blood volume and BOLD contrast. It is coming along with a quality assessment comprising metrics of skew, kurtosis, tSNR and sharpness. The purpose of this dataset is 
@@ -13,7 +13,7 @@ The second participant sub-02 is the main participant. The first three sessions 
 The sessions 4-13 are contain the main data of interest. Namely 51 runs of movie watching. 
 
 Data Acquisition:
-Scanning was performed at Scannexus as part of the Maastricht Brain Imaging Centre (MBIC) embedded in theMaastricht University, Maastricht, The Netherlands. VASO and BOLD contrasts of the whole brain were obtained from one participant at a 'classical' SIEMENS MAGNETOM 7T scanner during watching the Human Connectome Project (HCP) audio movie.
+Scanning was performed at Scannexus as part of the Maastricht Brain Imaging Centre (MBIC) embedded in the Maastricht University, Maastricht, The Netherlands. VASO and BOLD contrasts of the whole brain were obtained from one participant at a 'classical' SIEMENS MAGNETOM 7T scanner during watching the Human Connectome Project (HCP) audio movie.
 The link to the psychopy stimulation script is: Link to the movie: https://github.com/layerfMRI/Phychopy_git/tree/master/movie). 
 The link to the movie file is here: https://youtu.be/qndD3ErUaEE (or here, in case of Youtube restrictions: https://drive.google.com/drive/folders/1Jw6FSvX8IHaFQBZncEMjnmYUggNGkwQB?usp=sharing )
 For information about detailed scanning parameters see: 
@@ -27,4 +27,4 @@ Defacing was performed with freeSurfer. Motion correction (MOCO), BOLD correctio
 Presenting on ISMRM 2022:
 You can find our abstract draft here: https://layerfmri.page.link/ISMRM2022_WB. The main participant of this abstract is subject 02 on this open dataset.
 
-Preprint: https://doi.org/10.1101/2022.08.19.504502
+Paper: https://doi.org/10.52294/001c.87961
