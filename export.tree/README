@@ -1,0 +1,15 @@
+Project description: Whole Brain Layer-fMRI Connectome: An Open Dataset
+
+Overview:
+Here, we provide a whole-brain layer-dependent connectome dataset with cerebral blood volume and BOLD contrast. It is coming along with a quality assessment comprising metrics of skew, kurtosis, tSNR and sharpness. The purpose of this dataset is to 1.) characterize the prospects and challenges of whole brain layer-fMRI acquisition sequences in a test-retest setting and 2.) to provide a test bed for developing and benchmarking new layer-dependent analysis tools that may be able to  address novel neuroscientific  research  questions. 
+Note that these data have been acquired with a CBV-sensitive VASO sequence, thus the datatype is rather unconventional compared to standard fMRI datasets. TRs as well as resolution is variable across time and contrasts within one run. Please notice, this is an initial release of an ongoing study. We are happy to share the data via SIEMENS C2P.
+
+Data Acquisition:
+Scanning was performed at Scannexus as part of the Maastricht Brain Imaging Centre (MBIC) embedded in theMaastricht University, Maastricht, The Netherlands. VASO and BOLD contrasts of the whole brain were obtained from one participant at a SIEMENS MAGNETOM 7T scanner at 6 days during watching the Human Connectome Project (HCP) audio movie.
+The link to the psychopy stimulation script is: Link to the movie: https://github.com/layerfMRI/Phychopy_git/tree/master/movie). 
+The link to the movie file is here: https://youtu.be/qndD3ErUaEE
+For information about detailed scanning parameters see: https://github.com/layerfMRI/Sequence_Github/blob/master/Whole_brain_layers/Ann_WB_VASO_fMRI.pdf.
+There is no data available for day 3 due to technical issues at scanning (PCI_RX receiver error). At day 6, respiration and pulse were recorded to provide the required physiological measures for further analysis. Link to physiological recording on Github: https://github.com/layerfMRI/Phychopy_git/tree/master/movie/physio_log/physio_ses-06
+
+Data processing:
+Defacing was performed with freesurfer. Motion correction (MOCO), BOLD correction (BOCO) and segmentation of grey + white matter was performed. The additional folder "derivatives" contains the processed data in steps: MOCO, BOCO and segmentation of grey + white matter. For detailed information see: https://github.com/layerfMRI/repository/tree/master/stand_alone_VASO_NEURODEBIAN (MOCO) and https://doi.org/10.1002/mrm.24916 (BOCO). 
